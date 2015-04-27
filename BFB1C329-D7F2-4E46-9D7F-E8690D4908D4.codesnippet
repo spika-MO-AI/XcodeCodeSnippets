@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>TableRow</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>protocol &lt;#RendererProtocolName#&gt;:TableElementRendererProtocol {
+    &lt;#protocol:defines#&gt;
+}
+
+class &lt;#RowClassName#&gt;&lt;T: UITableViewCell where T: &lt;#RendererProtocolName#&gt;&gt;: BaseTableRow&lt;T&gt; {
+
+}
+
+typealias &lt;#AliasRowClassName#&gt; = &lt;#RowClassName#&gt;&lt;&lt;#CellClassName#&gt;&gt;
+
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>BFB1C329-D7F2-4E46-9D7F-E8690D4908D4</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>TableRow Shortcut Snipet</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>TableRow </string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
